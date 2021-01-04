@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(to bottom, #33ccff -4%, #cc66ff 104%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;;
+}
+.container-cls{
+    background-color:white ;
+    height: 40rem;
+    margin-top: 4rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+}
+
+.mail-img{
+    
+    width: 40%;
+   margin-top: 2.5rem;
+}
+.verify-btn{
+    margin-top: .8rem;
+}
+.forgot-txt{
+    padding-top: 1rem;
+    color: rgb(189, 15, 15);
+    font-weight: 800;
+}
+/* Css for otp form creation */
+.card {
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    height: 350px;
+    position: relative
+}
+
+/* .container {
+    height: 100vh
+} */
+
+.mail{
+    color: #9c8e8e;
+    font-size: 15px;
+}
+.mobile-text {
+    color: #989696b8;
+    font-size: 15px
+}
+
+/*.form-control {
+    margin-right: 12px
+}*/
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff8880;
+    outline: 0;
+    box-shadow: none
+}
+
+.cursor {
+    cursor: pointer
+
+}
+.hoo{
+    border-radius: 3rem;
+}
+
+/* Css for otp form creation ending */
+
+@media(max-width:768px){
+    .container-cls{
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        height: 52rem;
+    }
+    .column2{
+        padding: 0;
+        margin: 0;
+    }
+    .forgot-txt{
+        padding-top: 2rem;
+    }
+        
+    
+}
